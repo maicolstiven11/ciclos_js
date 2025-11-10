@@ -6,7 +6,7 @@ while (saldo > 0) {
 
 
     // Dentro del ciclo, le pido al usuario que ingrese el monto que desea retirar
-    let retiro = parseFloat(prompt("¿Cuánto desea retirar?"));
+    let retiro = parseFloat(prompt("¿Cuanto desea retirar?"));
 
     // Verifico si el saldo alcanza para hacer ese retiro
     if (retiro <= saldo) {

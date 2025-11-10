@@ -5,14 +5,14 @@ let numeros = [];
 for (let i = 1; i <= 10; i++) {
 
     // Le pido al usuario que ingrese el número correspondiente
-    let entrada = parseFloat(prompt(`Ingrese el número ${i}:`));
+    let entrada = parseFloat(prompt(`Ingrese el numero ${i}:`));
 
     //  Guardo ese número dentro del vector 'numeros'
     numeros.push(entrada);
 }
 
 //  Muestro en pantalla solo los números que sean mayores que 50
-console.log("Números mayores que 50:");
+console.log("Numeros mayores que 50:");
 
 for (let i = 0; i < numeros.length; i++) {
 

@@ -6,7 +6,7 @@ for (let estudiante = 1; estudiante <= 5; estudiante++) {
     console.log("El estudiante tiene el carnet estudiantil?");
 
     // Le pido al usuario que ingrese "sí" o "no" usando prompt
-    let ingresa = prompt("Ingrese 'sí' o 'no':");
+    let ingresa = prompt("Ingrese 'si' o 'no':");
 
     // Convierto la respuesta a minúsculas para evitar errores por mayúsculas
     ingresa = ingresa.toLowerCase();

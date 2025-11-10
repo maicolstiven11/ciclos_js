@@ -8,7 +8,7 @@ for (let i = 1; i <= 100; i++) {
   if (i > 90 && i % 2 === 0) {
 
     // Si se cumple la condición, muestro un mensaje de interrupción
-    console.log(`Interrupción: el número ${i} es mayor a 90 y par`);
+    console.log(`Interrupcion: el numero ${i} es mayor a 90 y par`);
 
     // Detengo el ciclo con break
     break;

@@ -5,10 +5,10 @@ for (let corredor = 1; corredor <= 8; corredor++) {
     for (let vuelta = 1; vuelta <= 4; vuelta++) {
 
         // Le pregunto al usuario si el corredor se cansó en esta vuelta
-        let respuesta = prompt(`¿El corredor ${corredor} se cansó en la vuelta ${vuelta}? (sí/no)`);
+        let respuesta = prompt(`¿El corredor ${corredor} se canso en la vuelta ${vuelta}? (sí/no)`);
 
         // Verifico si la respuesta fue "sí"
-        if (respuesta === "sí") {
+        if (respuesta === "si") {
 
         // Si el corredor se cansó, muestro que se detuvo y salgo del ciclo de vueltas
         console.log(`Corredor ${corredor} se detuvo en la vuelta ${vuelta}`);
@@ -16,7 +16,7 @@ for (let corredor = 1; corredor <= 8; corredor++) {
         }
 
         // Si no se canso muestro que completó la vuelta
-        console.log(`Corredor ${corredor} completó la vuelta ${vuelta}`);
+        console.log(`Corredor ${corredor} completo la vuelta ${vuelta}`);
     }
 
     // Al terminar las vueltas (o si se detuvo), paso al siguiente corredor
